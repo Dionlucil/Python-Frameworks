@@ -10,7 +10,7 @@ st.set_page_config(page_title="CORD-19 Explorer", layout="wide")
 def load_sample_data(nrows=10000):
     """Load a sample of the dataset for faster processing"""
     try:
-        df = pd.read_csv("metadata.csv/metadata.csv", nrows=nrows, low_memory=False)
+        pd.read_csv("metadata.csv", nrows=nrows, low_memory=False)
         return df
     except Exception as e:
         st.error(f"Error loading dataset: {e}")
