@@ -1,0 +1,39 @@
+Part 5: Documentation and Reflection
+
+ Report Template
+
+Findings:
+
+Most publications occurred in 2020, reflecting the global urgency of COVID-19 research.
+
+Leading journals include Nature and The Lancet.
+
+Common words in paper titles include COVID, SARS-CoV-2, and pandemic.
+
+Sources like PMC and WHO contributed the majority of papers.
+
+Challenges:
+
+Handling large dataset size efficiently.
+
+Many missing values (especially abstracts and authors).
+
+Learning how to integrate pandas analysis with Streamlit visualizations.
+
+Learning:
+
+How to perform data cleaning (missing values, datetime handling).
+
+How to generate simple but meaningful visualizations with Matplotlib.
+
+How to build a functional Streamlit application for interactive exploration.
+
+ With this corrected setup, you’ll have:
+
+Clean dataset (data_clean2)
+
+Visualizations in Jupyter Notebook
+
+Streamlit interactive app (app.py)
+
+Short written report
